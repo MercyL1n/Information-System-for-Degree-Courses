@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="utf-8" />
+        <title>project docking</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="lmy" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" /></head>
+    <body>
+        <div class="body">
+            <a href="#db"></a>
+            <div class="heads">
+                <div class="wrap">
+                    <div class="heads">
+                        <div class="head_l fl">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="#" /></a>
+                            </div>
+                        </div>
+                        <div class="head_m fl">
+                            <div >
+                                <img src="#" /></div>
+                        </div>
+                        <div class="head_r fr">
+                            <div class="head_con fl"></div>
+                            <div class="head_login fl">
+                                <a href="#">登录</a></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="in_bans">
+                <div class="zdtj_bans">
+                    <div class="ban_search">
+                        <div class="ban_search_input fl">
+                            <input type="text" name="keywords" id="topkeywords" value="" /></div>
+                        <div class="ban_search_text fr">
+                            <a href="#" onclick="#">搜索</a></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div >
+                <div class="wrap">
+                    <div class="#">
+                        <div class="type02_r fl">
+                            <div class="#">
+                                <ul>
+                                    <li>
+                                        <div class="type02_tl fl">项目类型</div>
+                                        <div class="type02_tr fr" id="type">
+                                            <div class="type02_trl fl">
+                                                <a href="#" class="sel this" data-id="0" data-target="type">全部</a></div>
+                                            <div class="type02_trr fl">
+                                                <a href="#" data-id="1" data-target="type" class="sel ">A</a>
+                                                <a href="#" data-id="2" data-target="type" class="sel ">B</a>
+                                                <a href="#" data-id="3" data-target="type" class="sel ">C</a>
+                                                <a href="#" data-id="4" data-target="type" class="sel ">D</a></div>
+                                            <div class="clear"></div>
+                                            <span id="typeval" style="display:none">0</span></div>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <div class="type02_tl fl">项目方向</div>
+                                        <div class="type02_tr fr" id="fangxiang">
+                                            <div class="type02_trl fl">
+                                                <a href="#" class="sel this" data-id="0" data-target="fangxiang">全部</a></div>
+                                            <div class="type02_trr fl">
+                                                <a href="#" data-id="1" data-target="fangxiang" class="sel ">A</a>
+                                                <a href="#" data-id="2" data-target="fangxiang" class="sel ">B</a>
+                                                <a href="#" data-id="3" data-target="fangxiang" class="sel ">C</a>
+                                                <a href="#" data-id="4" data-target="fangxiang" class="sel ">D</a>
+                                                <a href="#" data-id="5" data-target="fangxiang" class="sel ">E</a>
+                                                <a href="#" data-id="6" data-target="fangxiang" class="sel ">F</a>
+                                                <a href="#" data-id="7" data-target="fangxiang" class="sel ">G</a>
+                                                <a href="#" data-id="8" data-target="fangxiang" class="sel ">H</a>
+                                                <a href="#" data-id="9" data-target="fangxiang" class="sel ">I</a>
+                                                <a href="#" data-id="10" data-target="fangxiang" class="sel ">J</a>
+                                                <a href="#" data-id="11" data-target="fangxiang" class="sel ">K</a>
+                                                <a href="#" data-id="12" data-target="fangxiang" class="sel ">L</a>
+                                                <a href="#" data-id="13" data-target="fangxiang" class="sel ">M</a></div>
+                                            <div class="clear"></div>
+                                            <span id="fangxiangval" style="display:none">0</span></div>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <div class="type02_tl fl">所在地区</div>
+                                        <div class="type02_tr fr" id="area">
+                                            <div class="type02_trl fl">
+                                                <a href="#" class="sel this" data-id="0" data-target="area">全部</a></div>
+                                            <div class="type02_trr fl"></div>
+                                            <div class="type02_trqb fl">
+                                                <a href="#"></a></div>
+                                            <div class="clear"></div>
+                                            <span id="areaval" style="display:none">0</span></div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="type02_h">
+                                <div class="type02_hl fl" id="sort">
+                                    <ul>
+                                        <li>
+                                            <a href="#" data-id="0" data-target="sort" class="sel this">默认</a></li>
+                                        <li>|</li>
+                                        <li>
+                                            <a href="#" data-id="1" data-target="sort" class="sel ">浏览量</a></li>
+                                        <li>|</li>
+                                        <li>
+                                            <a href="#" data-id="3" data-target="sort" class="sel ">最新</a></li>
+                                    </ul>
+                                    <span id="sortval" style="display:none">0</span></div>
+                                <div class="type02_hr fr">
+                                    <div class="ban_search1">
+                                        <div class="ban_search_input1 fl">
+                                            <input type="text" id="keywords" value="" /></div>
+                                        <div class="ban_search_text1 fr">
+                                            <a href="javascript:void(0)" class="sel"></a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="type02_m">
+                                <div class="in_con01_main">
+                                    <ul>
+                                        <li>
+                                            <div class="in_con01_m">
+                                                <div class="in_con01_img">
+                                                    <a href="#" >
+                                                        <img src="#"  /></a>
+                                                </div>
+                                                <div class="in_con01_tip"></div>
+                                                <a href="#" >
+                                                    <div class="in_con01_text">
+                                                        <h1>项目A</h1></div>
+                                                    <div class="in_con01_b">
+                                                        <div class="in_con01_bl fl"></div>
+                                                        <div class="in_con01_br fr"></div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="in_con01_m">
+                                                <div class="in_con01_img">
+                                                    <a href="#" >
+                                                        <img src="#"  /></a>
+                                                </div>
+                                                <div class="in_con01_tip"></div>
+                                                <a href="#" >
+                                                    <div class="in_con01_text">
+                                                        <h1>项目B</h1></div>
+                                                    <div class="in_con01_b">
+                                                        <div class="in_con01_bl fl"></div>
+                                                        <div class="in_con01_br fr"></div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                          <li>
+                                            <div class="in_con01_m">
+                                                <div class="in_con01_img">
+                                                    <a href="#" >
+                                                        <img src="#"  /></a>
+                                                </div>
+                                                <div class="in_con01_tip"></div>
+                                                <a href="#" >
+                                                    <div class="in_con01_text">
+                                                        <h1>项目c</h1></div>
+                                                    <div class="in_con01_b">
+                                                        <div class="in_con01_bl fl"></div>
+                                                        <div class="in_con01_br fr"></div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="all_page">
+                                <ul>
+                                    <li class="page">
+                                        <a aria-label="Previous" href="#">
+                                            <span aria-hidden="true">上一页</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="this">1</a></li>
+                                    <li class="page">
+                                        <a aria-label="Next" href="#">
+                                            <span aria-hidden="true">下一页</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="type02_l fl_l fr">
+                            <div class="fb_con01">
+                                <div class="fb_con01_btn">
+                                    <a href="#">发布项目</a></div>
+                            </div>
+                            <div class="fb_con02" style="background: #fafafa;margin-top: 10px">
+                                <div class="cat" style="text-align: center;margin: 8px auto;border-bottom: #ccc dotted 1px;padding-bottom: 5px">
+                                    <h2>推荐</h2></div>
+                                <ul>
+                                    <li style="margin:5px 0">
+                                        <a href="#">
+                                            <span class="pic fl">
+                                                <img src="#" style="width:40px;height:40px" /></span>
+                                            <span class="tit fl" style="width:180px;padding-left:6px">
+                                                <p>A</p>
+                                                <p>time</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li style="margin:5px 0">
+                                        <a href="#">
+                                            <span class="pic fl">
+                                                <img src="#" style="width:10px;height:40px" /></span>
+                                            <span class="tit fl" style="width:160px;padding-left:6px">
+                                                <p>B</p>
+                                                <p>time</p>
+                                            </span>
+                                        </a>
+                                    </li>                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="all_bots">
+                <div class="wrap">
+                    <div class="a#">
+                            <a><img src="#"/></a>
+                    </div>
+                    <div class="all_bot_m fl">电话：6666666
+                        <br />QQ：6666666
+                        <br />邮箱：6666666@qq.com
+                        <br />地址：6666666</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="all_foots">&copy;
+           		<div class="">
+                	<ul>
+                    	<li class="" name="db">
+                        	<a href="#">返回顶部</a></li>
+                	</ul>
+           		</div>
+        	</div>
+		</div>
+    </body>
+
+</html>
