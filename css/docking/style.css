@@ -123,7 +123,7 @@ a:hover {
 	padding-top:1px;
 }
 .ban_search {
-	background: url("../image/search.png")  no-repeat left center ;
+	background: url("../../images/search.png")  no-repeat left center ;
 	width:650px;
 	height:90px;
 	margin:0 auto;
@@ -217,7 +217,7 @@ a:hover {
 .ban_search1{}
 
 .ban_search1 {
-	background: url("../image/searvh.jpg")/*tpa=http://www.wepm.net.cn/Public/Static/images/searvh.jpg*/ no-repeat left center;width:239px;height:29px;
+	background: url("../../images/searvh.jpg") no-repeat left center;width:239px;height:29px;
 }
 .ban_search_input1 {
 	padding:5px 0 0 10px;
